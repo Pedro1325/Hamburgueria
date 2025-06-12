@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Rupper's Burguer</title>
+    <link rel="stylesheet" href="./login.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="auth-page">
+  <a href="../html/index.html"></a>
+  <img src="../assets/img/hamburguerinicial.jpg" alt="imagem Hamburger">
+
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">Rupper's Burguer</h1>
+            </div>
+        </div>
+    </header>
+
+    <div class="login-container">
+        <h1 class="auth-logo">Login</h1>
+        <form class="form-group" action="#" method="POST">
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Usuario@gmail.com" class="form-control" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" placeholder="Sua senha" class="form-control" required>
+                <a href="#" class="forgot-password">Esqueceu a senha?</a>
+            </div>
+            
+            <button type="submit" class="btn-submit">Entrar</button>
+        </form>
+
+        <div class="auth-footer">
+            <p>Não possui uma conta? <a href="../Cadastro/cadastro.html">Faça o cadastro</a></p>
+        </div>
+    </div>
+
+    <script src="../js/formatacao.js"></script>
+</body>
+</html>
